@@ -1,7 +1,11 @@
 using Shop.Catalog.Service.Entities;
-using Shop.Catalog.Service.MongoDb;
+using Shop.Common.Settings;
+using Shop.Common.MongoDB;
+using Shop.Common.MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
+
+const string AllowedOriginSettings = "AllowedOrigin";
 
 // Add services to the container.
 
@@ -12,7 +16,9 @@ builder.Services.AddControllers(builder =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddMongo().AddMongoRepository<Item>("items");
+builder.Services.AddMongo()
+    .AddMongoRepository<Item>("items")
+    .AddMassTransitWithRabbitMq();
 
 var app = builder.Build();
 
@@ -21,6 +27,11 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors(cors =>
+    {
+        cors.WithOrigins(builder.Configuration[AllowedOriginSettings])
+            .AllowAnyHeader().AllowAnyMethod();
+    });
 }
 
 app.UseHttpsRedirection();

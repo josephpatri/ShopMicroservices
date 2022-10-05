@@ -1,3 +1,5 @@
+using Shop.Common;
+
 namespace Shop.Catalog.Service.Entities
 {
     public class Item : IEntity
