@@ -1,6 +1,6 @@
 # ShopMicroservices
 
-**A functional shop with microservices with docker and kubernetes**
+**A functional shop with microservices on docker and kubernetes enviroments**
 
 ---
 
