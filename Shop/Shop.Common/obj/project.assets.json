@@ -1674,7 +1674,7 @@
     "C:\\Users\\odali\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.3",
     "restore": {
       "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
       "projectName": "Shop.Common",

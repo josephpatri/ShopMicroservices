@@ -1,9 +1,9 @@
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
-using Shop.Catalog.Service.Contracts;
 using Shop.Catalog.Service.Dtos;
 using Shop.Catalog.Service.Entities;
 using Shop.Common;
+using Shop.Common.Contracts;
 
 namespace Shop.Catalog.Service.Controllers;
 

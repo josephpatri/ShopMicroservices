@@ -519,7 +519,7 @@
           "lib/net5.0/SharpCompress.dll": {}
         }
       },
-      "Shop.Common/1.0.1": {
+      "Shop.Common/1.0.3": {
         "type": "package",
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
@@ -1381,14 +1381,14 @@
         "sharpcompress.nuspec"
       ]
     },
-    "Shop.Common/1.0.1": {
-      "sha512": "Q6QshFQYuaHs1QTx+o9eggaS69wgbErQHqJSJeBlpTcafH4r9hrDtOAwT43iAwcrFXKatkcC2PJX13xjUVrmNw==",
+    "Shop.Common/1.0.3": {
+      "sha512": "zjr2ZDIqOC6ZWKQdbBmDh8kzyMS9OFKRUSrnnD6sA5rdVBRyn+zL78hRs83i95pgNuy7de27ecDud3tgwteOTQ==",
       "type": "package",
-      "path": "shop.common/1.0.1",
+      "path": "shop.common/1.0.3",
       "files": [
         ".nupkg.metadata",
         "lib/net6.0/Shop.Common.dll",
-        "shop.common.1.0.1.nupkg.sha512",
+        "shop.common.1.0.3.nupkg.sha512",
         "shop.common.nuspec"
       ]
     },
@@ -1903,7 +1903,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "MongoDB.Driver >= 2.17.1",
-      "Shop.Common >= 1.0.1",
+      "Shop.Common >= 1.0.3",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1920,7 +1920,6 @@
       "outputPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\NuGet.Config",
         "C:\\Users\\odali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1929,7 +1928,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "d:\\src\\packages": {},
+        "D:\\Proyectos\\Shop\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1954,7 +1953,7 @@
           },
           "Shop.Common": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.3, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

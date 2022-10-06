@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DCrmBrxv4UgwqpjOH/coOLtLzx3d4YPumMWqemlDjESzYRyBESuj3e0j2CHonfNGTljE420yuMdT0WItf32eVQ==",
+  "dgSpecHash": "bPzTxQjDde7iac5fk4fSVbkY5vA6oxN8XVtvbwD0AFF/ETVpTVx06o/75HqajmS2IGUMnPHiao7c0LocUJlcig==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj",
+  "projectFilePath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\odali\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\masstransit\\8.0.6\\masstransit.8.0.6.nupkg.sha512",
@@ -32,7 +32,7 @@
     "C:\\Users\\odali\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.5\\mongodb.libmongocrypt.1.5.5.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
-    "C:\\Users\\odali\\.nuget\\packages\\shop.common\\1.0.1\\shop.common.1.0.1.nupkg.sha512",
+    "C:\\Users\\odali\\.nuget\\packages\\shop.common\\1.0.3\\shop.common.1.0.3.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
