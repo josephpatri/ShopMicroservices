@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bPzTxQjDde7iac5fk4fSVbkY5vA6oxN8XVtvbwD0AFF/ETVpTVx06o/75HqajmS2IGUMnPHiao7c0LocUJlcig==",
+  "dgSpecHash": "HlrApwTNV06SrsHPTLBxeoeE7OLqsudcw1TJALHfZCsmohVPZAlFMLM3FzUyPj9yRzQ3YNwIiO+ScFESJc+XDw==",
   "success": true,
-  "projectFilePath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj",
+  "projectFilePath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\odali\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\masstransit\\8.0.6\\masstransit.8.0.6.nupkg.sha512",

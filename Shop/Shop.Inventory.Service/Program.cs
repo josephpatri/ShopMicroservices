@@ -36,7 +36,7 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
@@ -50,7 +50,7 @@ static void AddCatalogClient(WebApplicationBuilder builder)
 
     builder.Services.AddHttpClient<CatalogClient>(client =>
     {
-        client.BaseAddress = new Uri("https://localhost:7199");
+        client.BaseAddress = new Uri("https://catalog-clusterip-srv:80");
     })
     .AddTransientHttpErrorPolicy(builders => builders.Or<TimeoutRejectedException>().WaitAndRetryAsync(
         5,

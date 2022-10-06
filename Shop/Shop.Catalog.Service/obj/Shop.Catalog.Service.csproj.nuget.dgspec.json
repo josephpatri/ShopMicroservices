@@ -1,19 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj": {}
+    "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj": {}
   },
   "projects": {
-    "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj": {
+    "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj",
+        "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj",
         "projectName": "Shop.Catalog.Service",
-        "projectPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj",
+        "projectPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\odali\\.nuget\\packages\\",
-        "outputPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\obj\\",
+        "outputPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog.Service\\NuGet.Config",
           "C:\\Users\\odali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -22,7 +23,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Proyectos\\Shop\\packages": {},
+          "D:\\src\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
