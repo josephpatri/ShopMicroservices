@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DpgIqQ5WhbHKCUjPnF/EBVtrG8wo0W+tvXzkBlYblI/aaKVzjECCUZq+acD53vqzLx0OBnEIFtx8dMa0Wdjxqw==",
+  "success": true,
+  "projectFilePath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\build.proj",
+  "expectedPackageFiles": [
+    "C:\\Users\\odali\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\odali\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.2\\microsoft.netframework.referenceassemblies.net45.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

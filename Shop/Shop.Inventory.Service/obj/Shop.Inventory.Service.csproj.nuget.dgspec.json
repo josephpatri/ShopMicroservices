@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\Shop.Inventory.Service.csproj": {}
+    "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\Shop.Inventory.Service.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\Shop.Inventory.Service.csproj": {
+    "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\Shop.Inventory.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\Shop.Inventory.Service.csproj",
+        "projectUniqueName": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\Shop.Inventory.Service.csproj",
         "projectName": "Shop.Inventory.Service",
-        "projectPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\Shop.Inventory.Service.csproj",
+        "projectPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\Shop.Inventory.Service.csproj",
         "packagesPath": "C:\\Users\\odali\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\obj\\",
+        "outputPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\NuGet.Config",
+          "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Inventory.Service\\NuGet.Config",
           "C:\\Users\\odali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -23,7 +23,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\src\\packages": {},
+          "d:\\src\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

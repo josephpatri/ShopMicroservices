@@ -1,0 +1,137 @@
+SF:d:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.Service\Extensions\Mappers.cs
+FN:8,Shop.Catalog.Service.Dtos.ItemDto Shop.Catalog.Service.Mappers::AsDto(Shop.Catalog.Service.Entities.Item)
+FNDA:0,Shop.Catalog.Service.Dtos.ItemDto Shop.Catalog.Service.Mappers::AsDto(Shop.Catalog.Service.Entities.Item)
+DA:9,0
+DA:10,0
+DA:11,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:d:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.Service\Entities\Item.cs
+FN:6,System.Guid Shop.Catalog.Service.Entities.Item::get_Id()
+FNDA:0,System.Guid Shop.Catalog.Service.Entities.Item::get_Id()
+DA:7,0
+FN:8,System.String Shop.Catalog.Service.Entities.Item::get_Name()
+FNDA:0,System.String Shop.Catalog.Service.Entities.Item::get_Name()
+DA:9,0
+FN:10,System.String Shop.Catalog.Service.Entities.Item::get_Description()
+FNDA:0,System.String Shop.Catalog.Service.Entities.Item::get_Description()
+DA:11,0
+FN:12,System.Decimal Shop.Catalog.Service.Entities.Item::get_Price()
+FNDA:0,System.Decimal Shop.Catalog.Service.Entities.Item::get_Price()
+DA:13,0
+FN:14,System.DateTimeOffset Shop.Catalog.Service.Entities.Item::get_CreatedDate()
+FNDA:0,System.DateTimeOffset Shop.Catalog.Service.Entities.Item::get_CreatedDate()
+DA:15,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:d:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.Service\Dtos\Dtos.cs
+FN:5,System.Guid Shop.Catalog.Service.Dtos.ItemDto::get_Id()
+FNDA:0,System.Guid Shop.Catalog.Service.Dtos.ItemDto::get_Id()
+DA:6,0
+FN:7,System.String Shop.Catalog.Service.Dtos.CreateItemDto::get_Name()
+FNDA:0,System.String Shop.Catalog.Service.Dtos.CreateItemDto::get_Name()
+DA:8,0
+FN:9,System.String Shop.Catalog.Service.Dtos.UpdateItemDto::get_Name()
+FNDA:0,System.String Shop.Catalog.Service.Dtos.UpdateItemDto::get_Name()
+DA:10,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:d:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.Service\Controllers\ItemsController.cs
+FN:19,System.Void Shop.Catalog.Service.Controllers.ItemsController::.ctor(Shop.Common.IRepository`1<Shop.Catalog.Service.Entities.Item>,MassTransit.IPublishEndpoint)
+FNDA:0,System.Void Shop.Catalog.Service.Controllers.ItemsController::.ctor(Shop.Common.IRepository`1<Shop.Catalog.Service.Entities.Item>,MassTransit.IPublishEndpoint)
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+FN:25,System.Void Shop.Catalog.Service.Controllers.ItemsController::.ctor(Shop.Common.IRepository`1<Shop.Catalog.Service.Entities.Item>)
+FNDA:0,System.Void Shop.Catalog.Service.Controllers.ItemsController::.ctor(Shop.Common.IRepository`1<Shop.Catalog.Service.Entities.Item>)
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+FN:36,Shop.Catalog.Service.Dtos.ItemDto Shop.Catalog.Service.Controllers.ItemsController/<>c::<GetAsync>b__4_0(Shop.Catalog.Service.Entities.Item)
+FNDA:0,Shop.Catalog.Service.Dtos.ItemDto Shop.Catalog.Service.Controllers.ItemsController/<>c::<GetAsync>b__4_0(Shop.Catalog.Service.Entities.Item)
+DA:37,0
+FN:94,System.Void Shop.Catalog.Service.Controllers.ItemsController/<DeleteAsync>d__8::MoveNext()
+FNDA:0,System.Void Shop.Catalog.Service.Controllers.ItemsController/<DeleteAsync>d__8::MoveNext()
+DA:95,0
+DA:96,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:103,0
+DA:105,0
+DA:107,0
+DA:108,0
+BRDA:98,189,0,0
+BRDA:98,189,1,0
+FN:34,System.Void Shop.Catalog.Service.Controllers.ItemsController/<GetAsync>d__4::MoveNext()
+FNDA:0,System.Void Shop.Catalog.Service.Controllers.ItemsController/<GetAsync>d__4::MoveNext()
+DA:35,0
+DA:36,0
+DA:38,0
+FN:41,System.Void Shop.Catalog.Service.Controllers.ItemsController/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void Shop.Catalog.Service.Controllers.ItemsController/<GetByIdAsync>d__5::MoveNext()
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:50,0
+DA:51,0
+BRDA:45,164,0,0
+BRDA:45,164,1,0
+FN:54,System.Void Shop.Catalog.Service.Controllers.ItemsController/<PostAsync>d__6::MoveNext()
+FNDA:0,System.Void Shop.Catalog.Service.Controllers.ItemsController/<PostAsync>d__6::MoveNext()
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+FN:72,System.Void Shop.Catalog.Service.Controllers.ItemsController/<PutAsync>d__7::MoveNext()
+FNDA:0,System.Void Shop.Catalog.Service.Controllers.ItemsController/<PutAsync>d__7::MoveNext()
+DA:73,0
+DA:74,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,0
+DA:87,0
+DA:89,0
+DA:90,0
+BRDA:76,189,0,0
+BRDA:76,189,1,0
+LF:54
+LH:0
+BRF:6
+BRH:0
+FNF:8
+FNH:0
+end_of_record
