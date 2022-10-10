@@ -19,6 +19,23 @@
           }
         }
       },
+      "AspNetCore.HealthChecks.Rabbitmq/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "6.0.2",
+          "RabbitMQ.Client": "6.2.2"
+        },
+        "compile": {
+          "lib/net6.0/HealthChecks.Rabbitmq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/HealthChecks.Rabbitmq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AspNetCore.HealthChecks.UI/6.0.5": {
         "type": "package",
         "dependencies": {
@@ -1881,6 +1898,22 @@
         "lib/net6.0/HealthChecks.MongoDb.xml",
         "lib/netstandard2.0/HealthChecks.MongoDb.dll",
         "lib/netstandard2.0/HealthChecks.MongoDb.xml"
+      ]
+    },
+    "AspNetCore.HealthChecks.Rabbitmq/6.0.2": {
+      "sha512": "Ch5/dOHpGfl8uGBdFEsbHU+xVsJtMdraBQ2d+MdKMxGjcn2tAubo7hRR8Vdwr5biLyCOY5qZR1zuVCteKQ5WIQ==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.rabbitmq/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcore.healthchecks.rabbitmq.6.0.2.nupkg.sha512",
+        "aspnetcore.healthchecks.rabbitmq.nuspec",
+        "icon.png",
+        "lib/net6.0/HealthChecks.Rabbitmq.dll",
+        "lib/net6.0/HealthChecks.Rabbitmq.xml",
+        "lib/netstandard2.0/HealthChecks.Rabbitmq.dll",
+        "lib/netstandard2.0/HealthChecks.Rabbitmq.xml"
       ]
     },
     "AspNetCore.HealthChecks.UI/6.0.5": {
@@ -5449,6 +5482,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AspNetCore.HealthChecks.MongoDb >= 6.0.2",
+      "AspNetCore.HealthChecks.RabbitMQ >= 6.0.2",
       "AspNetCore.HealthChecks.UI >= 6.0.5",
       "AspNetCore.HealthChecks.UI.Client >= 6.0.5",
       "AspNetCore.HealthChecks.UI.InMemory.Storage >= 6.0.5",
@@ -5464,7 +5498,7 @@
     "C:\\Users\\odali\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "restore": {
       "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
       "projectName": "Shop.Common",
@@ -5481,7 +5515,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Proyectos\\Shop\\packages": {},
+        "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5501,6 +5535,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "AspNetCore.HealthChecks.MongoDb": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
+          "AspNetCore.HealthChecks.RabbitMQ": {
             "target": "Package",
             "version": "[6.0.2, )"
           },
