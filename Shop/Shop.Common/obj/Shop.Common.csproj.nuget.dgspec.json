@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.1",
       "restore": {
         "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
         "projectName": "Shop.Common",
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Proyectos\\Shop\\packages": {},
+          "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +42,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "AspNetCore.HealthChecks.RabbitMQ": {
               "target": "Package",
               "version": "[6.0.2, )"
             },

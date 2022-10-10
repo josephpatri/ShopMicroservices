@@ -100,7 +100,6 @@ D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\obj\Debug
 D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\CoverletSourceRootsMapping
 D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\Shop.Catalog.Service.deps.json
 D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\Shop.Catalog.Service.runtimeconfig.json
-D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\NuGet.Config
 D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\appsettings.Development.json
 D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\appsettings.json
 D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\Shop.Catalog.Service.exe
@@ -193,3 +192,4 @@ d:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug
 d:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 d:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 d:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Proyectos\ShopMicroservices\Shop\Shop.Catalog\Shop.Catalog.UnitTest\bin\Debug\net6.0\HealthChecks.Rabbitmq.dll

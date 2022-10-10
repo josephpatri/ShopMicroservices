@@ -23,11 +23,6 @@ public class ItemsController : ControllerBase
         this.publishEndPoint = _publishEndpoint;
     }
 
-    public ItemsController(IRepository<Item> repo)
-    {
-        this.itemsRepository = repo;
-    }
-
     #endregion
 
     [HttpGet]
