@@ -19,7 +19,7 @@ public class ItemsControllerTest
         repositoryStub.Setup(repo => repo.GetAsync(It.IsAny<Guid>()))
             .ReturnsAsync((Item)null);
 
-        var controller = new ItemsController(repositoryStub.Object);
+        var controller = new ItemsController(repositoryStub.Object, rabbitEvents.Object);
 
         // Act  
         var result = await controller.GetByIdAsync(Guid.NewGuid());
@@ -37,7 +37,7 @@ public class ItemsControllerTest
         repositoryStub.Setup(repo => repo.GetAsync(It.IsAny<Guid>()))
             .ReturnsAsync(expectedItem);
 
-        var controller = new ItemsController(repositoryStub.Object);
+        var controller = new ItemsController(repositoryStub.Object, rabbitEvents.Object);
 
         //Act
         var result = await controller.GetByIdAsync(Guid.NewGuid());
@@ -54,7 +54,7 @@ public class ItemsControllerTest
 
         repositoryStub.Setup(repo => repo.GetAllAsync()).ReturnsAsync(expectedItems);
 
-        var controller = new ItemsController(repositoryStub.Object);
+        var controller = new ItemsController(repositoryStub.Object, rabbitEvents.Object);
 
         // Act
         var actualItems = await controller.GetAsync();

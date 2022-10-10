@@ -1,5 +1,4 @@
 using Shop.Catalog.Service.Entities;
-using Shop.Common.Settings;
 using Shop.Common.MongoDB;
 using Shop.Common.MassTransit;
 using System.Diagnostics.CodeAnalysis;
@@ -27,9 +26,7 @@ internal class Program
             .AddMongoRepository<Item>("items")
             .AddMassTransitWithRabbitMq();
 
-        // Healcheck
-        var mongoDbSettings = builder.Configuration.GetSection(nameof(MongoDbSettings)).Get<MongoDbSettings>().ConnectionString;
-        builder.Services.AddHealthCheck(mongoDbSettings, "CatalogApi");
+        builder.Services.AddHealthCheck("Catalog");
 
         var app = builder.Build();
 
@@ -50,7 +47,7 @@ internal class Program
 
         app.MapControllers();
 
-        app.UseHealthCheck();
+        app.UseHealthCheck("Catalog");
 
         app.Run();
     }

@@ -19,6 +19,23 @@
           }
         }
       },
+      "AspNetCore.HealthChecks.Rabbitmq/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "6.0.2",
+          "RabbitMQ.Client": "6.2.2"
+        },
+        "compile": {
+          "lib/net6.0/HealthChecks.Rabbitmq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/HealthChecks.Rabbitmq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AspNetCore.HealthChecks.UI/6.0.5": {
         "type": "package",
         "dependencies": {
@@ -1512,10 +1529,11 @@
           "lib/net5.0/SharpCompress.dll": {}
         }
       },
-      "Shop.Common/1.0.4": {
+      "Shop.Common/1.1.1": {
         "type": "package",
         "dependencies": {
           "AspNetCore.HealthChecks.MongoDb": "6.0.2",
+          "AspNetCore.HealthChecks.RabbitMQ": "6.0.2",
           "AspNetCore.HealthChecks.UI": "6.0.5",
           "AspNetCore.HealthChecks.UI.Client": "6.0.5",
           "AspNetCore.HealthChecks.UI.InMemory.Storage": "6.0.5",
@@ -2497,7 +2515,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "MongoDB.Driver": "2.17.1",
-          "Shop.Common": "1.0.4",
+          "Shop.Common": "1.1.1",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
@@ -2527,6 +2545,22 @@
         "lib/net6.0/HealthChecks.MongoDb.xml",
         "lib/netstandard2.0/HealthChecks.MongoDb.dll",
         "lib/netstandard2.0/HealthChecks.MongoDb.xml"
+      ]
+    },
+    "AspNetCore.HealthChecks.Rabbitmq/6.0.2": {
+      "sha512": "Ch5/dOHpGfl8uGBdFEsbHU+xVsJtMdraBQ2d+MdKMxGjcn2tAubo7hRR8Vdwr5biLyCOY5qZR1zuVCteKQ5WIQ==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.rabbitmq/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcore.healthchecks.rabbitmq.6.0.2.nupkg.sha512",
+        "aspnetcore.healthchecks.rabbitmq.nuspec",
+        "icon.png",
+        "lib/net6.0/HealthChecks.Rabbitmq.dll",
+        "lib/net6.0/HealthChecks.Rabbitmq.xml",
+        "lib/netstandard2.0/HealthChecks.Rabbitmq.dll",
+        "lib/netstandard2.0/HealthChecks.Rabbitmq.xml"
       ]
     },
     "AspNetCore.HealthChecks.UI/6.0.5": {
@@ -4774,14 +4808,14 @@
         "sharpcompress.nuspec"
       ]
     },
-    "Shop.Common/1.0.4": {
-      "sha512": "yfs0z60PpKHz/OIMQjv1TA+KkjXSFAr4t03Q0xJYOT4zYYqco2Vi4HUdqarK/rlKwKhK2sFe8+tHQ28Z2U0F6Q==",
+    "Shop.Common/1.1.1": {
+      "sha512": "p1RJXuG2c62ShcVVnf6DFokhRbkl0w4FT6NYIft9UUXNZbsB4ZkM663P3DywX/7o0+Ukpt/HMdZWJW9srIL1iA==",
       "type": "package",
-      "path": "shop.common/1.0.4",
+      "path": "shop.common/1.1.1",
       "files": [
         ".nupkg.metadata",
         "lib/net6.0/Shop.Common.dll",
-        "shop.common.1.0.4.nupkg.sha512",
+        "shop.common.1.1.1.nupkg.sha512",
         "shop.common.nuspec"
       ]
     },
@@ -7271,13 +7305,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
+      "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
       "projectName": "Shop.Catalog.UnitTest",
-      "projectPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
+      "projectPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
       "packagesPath": "C:\\Users\\odali\\.nuget\\packages\\",
-      "outputPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\obj\\",
+      "outputPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\NuGet.Config",
         "C:\\Users\\odali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7286,15 +7321,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Proyectos\\Shop\\packages": {},
+        "D:\\src\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj": {
-              "projectPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj"
+            "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj": {
+              "projectPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj"
             }
           }
         }

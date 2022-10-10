@@ -9,6 +9,7 @@
       "Shop.Common/1.0.0": {
         "dependencies": {
           "AspNetCore.HealthChecks.MongoDb": "6.0.2",
+          "AspNetCore.HealthChecks.Rabbitmq": "6.0.2",
           "AspNetCore.HealthChecks.UI": "6.0.5",
           "AspNetCore.HealthChecks.UI.Client": "6.0.5",
           "AspNetCore.HealthChecks.UI.InMemory.Storage": "6.0.5",
@@ -30,6 +31,18 @@
         },
         "runtime": {
           "lib/net6.0/HealthChecks.MongoDb.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "AspNetCore.HealthChecks.Rabbitmq/6.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "6.0.7",
+          "RabbitMQ.Client": "6.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/HealthChecks.Rabbitmq.dll": {
             "assemblyVersion": "6.0.2.0",
             "fileVersion": "6.0.2.0"
           }
@@ -1093,6 +1106,13 @@
       "sha512": "sha512-0R3NVbsjMhS5fd2hGijzQNKJ0zQBv/qMC7nkpmnbtgribCj7vfNdAhSqv4lwbibffRWPW5A/7VNJMX4aPej0WQ==",
       "path": "aspnetcore.healthchecks.mongodb/6.0.2",
       "hashPath": "aspnetcore.healthchecks.mongodb.6.0.2.nupkg.sha512"
+    },
+    "AspNetCore.HealthChecks.Rabbitmq/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ch5/dOHpGfl8uGBdFEsbHU+xVsJtMdraBQ2d+MdKMxGjcn2tAubo7hRR8Vdwr5biLyCOY5qZR1zuVCteKQ5WIQ==",
+      "path": "aspnetcore.healthchecks.rabbitmq/6.0.2",
+      "hashPath": "aspnetcore.healthchecks.rabbitmq.6.0.2.nupkg.sha512"
     },
     "AspNetCore.HealthChecks.UI/6.0.5": {
       "type": "package",

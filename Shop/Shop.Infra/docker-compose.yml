@@ -1,6 +1,6 @@
 version: "3.8"
 
-services: 
+services:
   mongo:
     image: mongo
     container_name: mongo
@@ -8,7 +8,6 @@ services:
       - 27017:27017
     volumes: 
       - mongodbdata:/data/db
-
   rabbitmq:
     image: rabbitmq:management
     container_name: rabbitmq
@@ -18,6 +17,8 @@ services:
     volumes:
       - rabbitmqdata:/var/lib/rabbitmq
     hostname: rabbitmq
+networks: 
+  mynetwork: {}
 
 volumes: 
   mongodbdata:

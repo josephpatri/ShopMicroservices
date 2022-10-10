@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AeAUniC6LsaRrC+RSxrdHri5YULo9N7FKyS5tL3EvSeiIBaZMstY9FM51Fx3bBsKvpJ5kvmksMHecc9mAPpdqQ==",
+  "dgSpecHash": "0wD3jE2Y/H2Wk9mvT2dmUsrizCDOj/pG/FNpLXxQqmysxJJ4BcxN0UpKoEBVDvmjscWuwEVcw8kQZ0dQgY+kEg==",
   "success": true,
   "projectFilePath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\odali\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\6.0.2\\aspnetcore.healthchecks.mongodb.6.0.2.nupkg.sha512",
+    "C:\\Users\\odali\\.nuget\\packages\\aspnetcore.healthchecks.rabbitmq\\6.0.2\\aspnetcore.healthchecks.rabbitmq.6.0.2.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\aspnetcore.healthchecks.ui\\6.0.5\\aspnetcore.healthchecks.ui.6.0.5.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\6.0.5\\aspnetcore.healthchecks.ui.client.6.0.5.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\6.0.5\\aspnetcore.healthchecks.ui.core.6.0.5.nupkg.sha512",
