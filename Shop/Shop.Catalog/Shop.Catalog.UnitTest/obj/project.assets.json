@@ -7305,14 +7305,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
+      "projectUniqueName": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
       "projectName": "Shop.Catalog.UnitTest",
-      "projectPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
+      "projectPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
       "packagesPath": "C:\\Users\\odali\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\obj\\",
+      "outputPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\NuGet.Config",
+        "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\NuGet.Config",
         "C:\\Users\\odali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7321,15 +7321,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\src\\packages": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/josephpatri/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj": {
-              "projectPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj"
+            "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj": {
+              "projectPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.Service\\Shop.Catalog.Service.csproj"
             }
           }
         }

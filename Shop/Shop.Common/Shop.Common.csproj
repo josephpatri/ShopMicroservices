@@ -3,7 +3,13 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>Shop.Common</PackageId>
     <Nullable>enable</Nullable>
+    <Company>GitHub</Company>
+    <Version>1.0.0.1</Version>
+    <Authors>josephpatri</Authors>
+    <PackageDescription>This package adds an Shop.Common services!</PackageDescription>
+    <RepositoryUrl>https://github.com/josephpatri/ShopMicroservices</RepositoryUrl>
   </PropertyGroup>
 
    <ItemGroup>

@@ -1,19 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj": {}
+    "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj": {
-      "version": "1.1.1",
+    "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
+        "projectUniqueName": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
         "projectName": "Shop.Common",
-        "projectPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
+        "projectPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
         "packagesPath": "C:\\Users\\odali\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\obj\\",
+        "outputPath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\NuGet.Config",
           "C:\\Users\\odali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -21,9 +22,7 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.pkg.github.com/josephpatri/index.json": {}
         },
         "frameworks": {
           "net6.0": {
