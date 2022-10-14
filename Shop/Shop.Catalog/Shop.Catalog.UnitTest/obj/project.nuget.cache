@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fdmn8PjfXoPu/ZMUsBZzAUZA6J5y4uWpeHNjiCd8aj9uX7phwwbsK/da3x4G/9TKoJgN0gjwGn6QPJs5onme/Q==",
+  "dgSpecHash": "K4Ej8qSAMXI7NM7YDKsQ37nIaNVVQT8aRxkStNfgXbYZa169tc7RTYY5wmlO9ZkraWF382FSZxhOQ1NppdYAxw==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
+  "projectFilePath": "d:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\Shop.Catalog.UnitTest\\Shop.Catalog.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\odali\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\6.0.2\\aspnetcore.healthchecks.mongodb.6.0.2.nupkg.sha512",
     "C:\\Users\\odali\\.nuget\\packages\\aspnetcore.healthchecks.rabbitmq\\6.0.2\\aspnetcore.healthchecks.rabbitmq.6.0.2.nupkg.sha512",

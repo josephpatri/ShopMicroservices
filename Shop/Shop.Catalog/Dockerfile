@@ -4,7 +4,6 @@ COPY *.sln .
 COPY Shop.Catalog.Service/*.csproj ./Shop.Catalog.Service/
 COPY Shop.Catalog.UnitTest/*.csproj ./Shop.Catalog.UnitTest/
 COPY ./NuGet.Config /nuget.config
-COPY ./packages /src/packages
 
 RUN dotnet restore
 # copy full solution over

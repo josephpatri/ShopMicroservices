@@ -5498,7 +5498,7 @@
     "C:\\Users\\odali\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.1.1",
+    "version": "1.0.0.1",
     "restore": {
       "projectUniqueName": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\Shop.Common.csproj",
       "projectName": "Shop.Common",
@@ -5507,6 +5507,7 @@
       "outputPath": "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Common\\NuGet.Config",
         "C:\\Users\\odali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5514,9 +5515,7 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Proyectos\\ShopMicroservices\\Shop\\Shop.Catalog\\packages": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://nuget.pkg.github.com/josephpatri/index.json": {}
       },
       "frameworks": {
         "net6.0": {
