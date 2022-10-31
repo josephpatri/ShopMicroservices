@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
+  solution: 'ShopMicroservices/Shop/Shop.Catalog.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
