@@ -1,4 +1,16 @@
 # ShopMicroservices
+CI Pipelines Build Status:
+
+Shop.Common:
+[![Build status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/Shop.Common)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=7)
+
+Shop.Catalog:
+[![Build Status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/Shop.Catalog?branchName=develop)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=8&branchName=develop)
+
+Shop.Inventory:
+[![Build Status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/Shop.Inventory?branchName=develop)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=10&branchName=develop)
+
+
 
 **A functional shop with microservices on docker and kubernetes enviroments**
 
