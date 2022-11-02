@@ -4,6 +4,8 @@ CI Pipelines Build Status:
 Shop.Common:
 [![Build status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/Shop.Common)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=7)
 
+Package status: [![Shop.Common package in Commons feed in Azure Artifacts](https://feeds.dev.azure.com/josephville12/_apis/public/Packaging/Feeds/Commons/Packages/83ddd6a7-8d1c-4ff2-be1f-caf879700ed9/Badge)](https://dev.azure.com/josephville12/Microservices/_artifacts/feed/Commons/NuGet/Shop.Common?preferRelease=true)
+
 Shop.Catalog:
 [![Build Status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/Shop.Catalog?branchName=develop)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=8&branchName=develop)
 
