@@ -1,5 +1,17 @@
 # ShopMicroservices
 
+Routes:
+
+- Common Library: [Shop.Common](https://github.com/josephpatri/Shop.Common)
+
+- Catalog: [Shop.Catalog](https://github.com/josephpatri/Shop.Catalog)
+  
+- Inventory: [Shop.Inventory](https://github.com/josephpatri/Shop.Inventory)
+
+- K8S Infraestructure: [Shop.Infra](https://github.com/josephpatri/Shop.Infra)
+
+- Front: [Shop.Front](https://github.com/josephpatri/Shop.Front)
+
 **A functional shop with microservices on docker and kubernetes enviroments**
 ---
 
