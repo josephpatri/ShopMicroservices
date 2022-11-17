@@ -26,15 +26,24 @@ Routes:
 :mega: Finally we will implement a SPA with react that will consume these microservices.
 
 CI Pipelines Build Status:
-Shop.Common:
+
+# Shop.Common
 
 [![Build status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/Shop.Common)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=7)
 
-Shop.Catalog:
+# Shop.Catalog
+
+Service: 
 
 [![Build Status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/Shop.Catalog?branchName=develop)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=8&branchName=develop)
+     
+Docker Image Build: 
 
-Shop.Inventory:
+[![Build status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/ShopCatalog%20Build%20and%20push%20docker%20image%20to%20docker%20hub)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=13)
+
+# Shop.Inventory
+
+Service:
 
 [![Build Status](https://dev.azure.com/josephville12/Microservices/_apis/build/status/Shop.Inventory?branchName=develop)](https://dev.azure.com/josephville12/Microservices/_build/latest?definitionId=10&branchName=develop)
 
